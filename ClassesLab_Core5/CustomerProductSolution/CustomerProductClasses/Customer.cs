@@ -29,7 +29,7 @@ namespace CustomerProductClasses
         private string email;
         private string phoneNumber;
 
-        // public Product() { }
+        public Customer() { }
 
         public Customer(int idNumber, string fName, string lName, string emailAddress, string phone)
         {
@@ -52,7 +52,7 @@ namespace CustomerProductClasses
             }
         }
 
-        public string Code
+        public string FirstName
         {
             get
             {
@@ -88,25 +88,22 @@ namespace CustomerProductClasses
             }
         }
 
-        /*
-        public int QuantityOnHand
-        {
+        public string PhoneNumber
+            {
             get
             {
-                return quantity;
+                return phoneNumber;
             }
             set
             {
-                quantity = value;
+                phoneNumber = value;
             }
         }
-        */
-
-        /*
+     
         public override string ToString()
         {
-            return String.Format("Id: {0} Code: {1} Description: {2} UnitPrice: {3:C} Quantity: {4}", id, code, description, unitPrice, quantity);
+            return String.Format("Id: {0} FirstName: {1} LastName: {2} Email: {3} PhoneNumber: {4}", id, firstName, lastName, email, phoneNumber);
         }
-        */
+        
     }
 }
