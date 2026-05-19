@@ -25,6 +25,8 @@
 // A card must also be able to compare itself to another card and report each of the following boolean values:  does its
 // suit match the other card, does its value match the other card. 
 
+// comment added for testing. 
+
 using System;
 using System.ComponentModel.Design;
 using System.Runtime.Serialization;
